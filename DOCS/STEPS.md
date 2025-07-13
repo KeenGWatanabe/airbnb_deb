@@ -2,7 +2,7 @@
 ```bash
 npx create-next-app --typescript --use-yarn
 ```
-![nextjs setup](/images/nextjs_setup.png)
+![nextjs setup](/DOCS/images/nextjs_setup.png)
 
 cd .. >alife
 ```bash
