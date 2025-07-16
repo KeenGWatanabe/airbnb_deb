@@ -8,6 +8,9 @@ const font = Nunito({
 export const metadata: Metadata = {
   title: "Alife",
   description: "Alife",
+  icons: {
+    icon: '/favicon.ico', // Must be in /public folder
+  }  
 };
 
 export default function RootLayout({
