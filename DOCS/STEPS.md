@@ -9,3 +9,5 @@ cd .. >alife
 npm run dev
 ```
 stop at 4:09
+install tailwindcss v3.x  (latest is v4.1/vite)
+stop at 8:40
