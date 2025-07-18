@@ -23,8 +23,8 @@ npx tailwindcss init -p
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
 # add these to global.css
- @tailwind base;
+@tailwind base;
 @tailwind components;
-@taildwind utilities;   
+@tailwind utilities;   
 
 stop at 8:40
