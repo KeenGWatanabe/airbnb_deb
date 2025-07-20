@@ -20,8 +20,8 @@ npx tailwindcss init -p
 
 # add these to tailwind.config.js
 "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+"./pages/**/*.{js,ts,jsx,tsx}",
+"./components/**/*.{js,ts,jsx,tsx}",
 # add these to global.css
 @tailwind base;
 @tailwind components;
