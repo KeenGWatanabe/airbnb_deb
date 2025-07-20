@@ -4,12 +4,13 @@ import Logo from "./Logo";
 const Navbar = () => {
   return (
     <div className="fixed w-full bg-white z-10 shadow-sm">
+      Navbar
       <div 
         className="
           py-4
           border-b-[1px]"
         >
-        <Container>
+        <Container>Container
           <div
             className="
             flex
@@ -22,10 +23,11 @@ const Navbar = () => {
           >
             <Logo />
           </div>
-         anything
+         Container
         </Container>
-       Navbar
+       
       </div>
+      Navbar
     </div>
   );
 }

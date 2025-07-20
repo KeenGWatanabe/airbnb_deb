@@ -19,12 +19,21 @@ npx tailwindcss init -p
 ```
 
 # add these to tailwind.config.js
+```bash
 "./app/**/*.{js,ts,jsx,tsx}",
 "./pages/**/*.{js,ts,jsx,tsx}",
 "./components/**/*.{js,ts,jsx,tsx}",
+```
 # add these to global.css
+```bash
 @tailwind base;
 @tailwind components;
 @tailwind utilities;   
 
+html,
+body,
+:root {
+ height: 100%;   
+}
+```
 stop at 8:40
