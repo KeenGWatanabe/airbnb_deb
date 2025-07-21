@@ -1,16 +1,17 @@
 import Container from "../Container";
 import Logo from "./Logo";
+import Search from "./Search";
 
 const Navbar = () => {
   return (
     <div className="fixed w-full bg-white z-10 shadow-sm">
-      Navbar
+      
       <div 
         className="
           py-4
           border-b-[1px]"
         >
-        <Container>Container
+        <Container>
           <div
             className="
             flex
@@ -22,12 +23,13 @@ const Navbar = () => {
             "
           >
             <Logo />
+            <Search />
           </div>
-         Container
+         
         </Container>
        
       </div>
-      Navbar
+      
     </div>
   );
 }

@@ -36,4 +36,9 @@ body,
  height: 100%;   
 }
 ```
-stop at 8:40
+
+# react-icons
+```bash
+npm install react-icons
+```
+stop at 24:00
