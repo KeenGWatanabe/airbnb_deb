@@ -5,8 +5,8 @@ import Navbar from "./components/navbar/Navbar.";
 <link rel="icon" href="/favicon.ico" sizes="any" />
 
 export const metadata: Metadata = {
-  title: "Alife",
-  description: "Alife",
+  title: "Airbnb",
+  description: "Airbnb",
 };
 
 const font = Nunito({
