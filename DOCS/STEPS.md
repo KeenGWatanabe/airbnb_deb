@@ -41,4 +41,4 @@ body,
 ```bash
 npm install react-icons
 ```
-stop at 27:00
+stop at 34:00
