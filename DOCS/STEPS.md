@@ -7,6 +7,8 @@ npx create-next-app --typescript --use-yarn
 cd .. >alife
 ```bash
 npm run dev
+
+npm run lint (too check errors)
 ```
 stop at 4:09
 install tailwindcss v3.x  (latest is v4.1/vite projects only)
