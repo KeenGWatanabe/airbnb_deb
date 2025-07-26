@@ -32,7 +32,7 @@ const UserMenu = () => {
             cursor-pointer
             "
            >
-            Swim your way to the top
+            Tech your way to the top
         </div>
         <div
           onClick={toggleOpen}
