@@ -43,4 +43,21 @@ body,
 ```bash
 npm install react-icons
 ```
+
+# zustand
+```bash
+npm install zustand
+```
+# axios
+```bash
+npm install axios
+```
+# react-hook-form
+```bash
+npm install react-hook-form
+```
+# react-hot-toast
+```bash
+npm install react-hot-toast
+```
 stop at 34:00
