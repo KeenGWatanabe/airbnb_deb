@@ -78,7 +78,7 @@ db schema: alife_win / swim / nextjs
 
 
 schema.prisma
-stop at 1:46:00
+stop at 1:50:00
 
 
 
