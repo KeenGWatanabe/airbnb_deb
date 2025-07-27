@@ -177,7 +177,7 @@ const Modal: React.FC<ModalProps> = ({
                 )}
                 <Button
                   disabled={disabled}
-                  label={actionLabel}
+                  label={actionLabel || "Default Text"}
                   onClick={handleSummit}
                 />
               </div>
