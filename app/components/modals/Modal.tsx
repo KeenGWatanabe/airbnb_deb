@@ -181,6 +181,7 @@ const Modal: React.FC<ModalProps> = ({
                   onClick={handleSummit}
                 />
               </div>
+              {footer}
             </div>
             </div>
           </div>

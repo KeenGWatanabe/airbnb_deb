@@ -60,4 +60,4 @@ npm install react-hook-form
 ```bash
 npm install react-hot-toast
 ```
-stop at 1:30:00
+stop at 1:32:00
