@@ -33,3 +33,4 @@ Thumbs.db
 
 # Optional: if you generate static exports
 # public/
+/app/generated/prisma
