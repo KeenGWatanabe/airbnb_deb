@@ -85,6 +85,17 @@ npm install @prisma/client (debian)
 npx prisma db push
 ```
 
+# prisma next-auth
+src: https://authjs.dev/getting-started/adapters/prisma
+```shell
+(window)
+yarn add @prisma/client @auth/prisma-adapter
+yarn add prisma --dev
+(debian)
+npm install @prisma/client @auth/prisma-adapter
+npm install prisma --save-dev
+
+```
 schema.prisma
 stop at 1:50:00
 
