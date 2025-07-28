@@ -76,6 +76,14 @@ Change postgresql to mongodb
 
 db schema: alife_win / swim / nextjs
 
+# prisma db
+```shell
+yarn add @prisma/client (window)
+
+npm install @prisma/client (debian)
+
+npx prisma db push
+```
 
 schema.prisma
 stop at 1:50:00
