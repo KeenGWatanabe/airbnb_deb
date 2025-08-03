@@ -6,6 +6,7 @@ loc: /home/rger/Documents/NTUcloudengr/alife_deb
 terminal: bash (debian)
 github: https://github.com/KeenGWatanabe/airbnb_deb
 [steps](/DOCS/SETUPdebian.md)
+cmd: npm run dev
 
 # initialize project
 ```shell
