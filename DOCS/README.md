@@ -9,7 +9,7 @@ cmd: npm run dev
 ```bash
 npm run dev
 ```
-[STEPS](/DOCS/StepsDebian.md)
+[STEPS](/DOCS/SETUPdebian.md)
 
 # deployment site (WIP)
 https://techupz.vercel.app/
@@ -27,7 +27,7 @@ yarn dev
 # or
 pnpm dev
 # or
-bun dev
+npm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
