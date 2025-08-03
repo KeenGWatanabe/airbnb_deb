@@ -101,7 +101,7 @@ npm install bcrypt
 npm install -D @types/bcrypt
 ```
 schema.prisma
-stop at 1:50:00
+stop at 2:05:10
 
 
 

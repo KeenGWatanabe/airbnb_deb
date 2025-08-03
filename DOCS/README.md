@@ -1,4 +1,10 @@
 # airbnb_deb | debian | npm
+
+loc: /home/rger/Documents/NTUcloudengr/alife_deb
+terminal: bash (debian)
+github: https://github.com/KeenGWatanabe/airbnb_deb
+[steps](/DOCS/SETUPdebian.md)
+
 ```bash
 npm run dev
 ```
