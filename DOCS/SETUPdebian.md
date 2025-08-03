@@ -1,5 +1,12 @@
 cmd to start (avoid using wsl or git bash because of C:/Windows permission restriction on Github)
 
+# airbnb_deb | debian | npm
+
+loc: /home/rger/Documents/NTUcloudengr/alife_deb
+terminal: bash (debian)
+github: https://github.com/KeenGWatanabe/airbnb_deb
+[steps](/DOCS/SETUPdebian.md)
+
 # initialize project
 ```shell
 npx create-next-app --typescript --use-yarn
