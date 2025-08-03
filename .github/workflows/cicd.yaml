@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci  # npm's equivalent of `yarn install --frozen-lockfile`
+      - run: npx next build --debug  # Use `npx` for Next.js CLI
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
