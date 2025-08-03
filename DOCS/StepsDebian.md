@@ -77,8 +77,7 @@ Change postgresql to mongodb
 db schema: alife_win / swim / nextjs
 
 # prisma db
-```shell
-yarn add @prisma/client (window)
+```bash
 
 npm install @prisma/client (debian)
 
@@ -88,13 +87,18 @@ npx prisma db push
 # prisma next-auth
 src: https://authjs.dev/getting-started/adapters/prisma
 ```shell
-(window)
-yarn add @prisma/client @auth/prisma-adapter
-yarn add prisma --dev
+
 (debian)
-npm install @prisma/client @auth/prisma-adapter
+npm install @prisma/client @next-auth/prisma-adapter
 npm install prisma --save-dev
 
+```
+# bcrypt
+(window/WSL-js provides its own types defn)
+```bash
+(linux)
+npm install bcrypt
+npm install -D @types/bcrypt
 ```
 schema.prisma
 stop at 1:50:00
