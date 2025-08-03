@@ -1,4 +1,8 @@
 # airbnb_deb | debian | npm
+```bash
+npm run dev
+```
+[STEPS](/DOCS/StepsDebian.md)
 
 # deployment site (WIP)
 https://techupz.vercel.app/
