@@ -109,9 +109,12 @@ npm install bcrypt
 npm install -D @types/bcrypt
 ```
 schema.prisma
-stop at 2:12:10
 
+github settings > Developer settings > OAuth Apps > New OAuth App > Homepage URL* http://localhost:3000/ Authorization callback URL * http://localhost:3000/
 
+copy Client ID and Client secret into .env
+
+yarn fixes Deepseek (mckeen.it) 2:34:48
 
 # Deployment to Vercel
 ```shell
