@@ -1,13 +1,18 @@
 'use client';
+import React from 'react';
 
-const Avatar = () => {
+interface AvatarProps {
+  src?: string | null;
+}
+
+const Avatar: React.FC<AvatarProps> = ({src}) => {
   return (
     <img className="rounded-full"
       height="30"
       width="30"
       alt="Avatar"
-      src="/images/placeholder.png"
-    />  
+      src={src || "/images/placeholder.png"}
+    />
   );
 };
 
